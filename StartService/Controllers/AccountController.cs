@@ -23,7 +23,7 @@ namespace StartService.Controllers
         {
             var accountItems = _repo.GetAllAccounts();
 
-            return Ok(_mapper.Map<IEnumerable<AccountDto>>(accountItems)); ;
+            return Ok(_mapper.Map<IEnumerable<AccountDto>>(accountItems));
         }
 
     }
