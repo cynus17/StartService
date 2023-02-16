@@ -19,8 +19,10 @@ namespace StartService.Data
                 Console.WriteLine("Adding data - seeding");
 
                 context.Accounts.AddRange(
-                    new Account() 
+                    new Account() { Id = 1, Code = "A", Password = "123",Name = "Account 1" , Email = "something@gmail.com", Phone = "0373769560" }
                 );
+                context.SaveChanges();
+                Console.WriteLine(context.Accounts.ToList().Count);
             }
             else
             {
