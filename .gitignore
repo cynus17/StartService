@@ -1,5 +1,5 @@
-
-StartService/.vs/StartService/FileContentIndex/bcecab46-4727-4bba-8710-c204ca574515.vsidx
 *.vsidx
-*.vsidx
-*.vsidx
+*.cache
+/StartService/bin
+/StartService/obj
+/StartService/.vs
