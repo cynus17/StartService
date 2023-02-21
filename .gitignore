@@ -3,3 +3,5 @@
 /StartService/bin
 /StartService/obj
 /StartService/.vs
+.vscode/launch.json
+.vscode/tasks.json
