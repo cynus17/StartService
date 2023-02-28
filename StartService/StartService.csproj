@@ -16,7 +16,17 @@
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Common">
+      <HintPath>bin\Debug\net7.0\Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Spot">
+      <HintPath>bin\Debug\net7.0\Spot.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
